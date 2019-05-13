@@ -13,6 +13,8 @@ import (
 )
 
 type MyParser struct {
+	mkvparse.DefaultHandler
+
 	currentTagGlobal bool
 	currentTagName   *string
 	currentTagValue  *string
