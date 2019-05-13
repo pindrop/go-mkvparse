@@ -13,6 +13,8 @@ import (
 )
 
 type MyParser struct {
+	mkvparse.DefaultHandler
+
 	sawCluster bool
 }
 
