@@ -14,7 +14,7 @@ import (
 	"encoding/xml"
 	"flag"
 	"fmt"
-	"github.com/remko/go-mkvparse"
+	"github.com/pindrop/mkvparse"
 	"io/ioutil"
 	"net/url"
 	"os"

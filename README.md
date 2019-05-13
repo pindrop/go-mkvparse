@@ -1,4 +1,4 @@
-# `go-mkvparse`: Matroska parser in Go
+# `mkvparse`: Matroska parser in Go
 
 Fast [Matroska](https://www.matroska.org) (`.mkv`, `.mka`) parser, written in Go.
 
@@ -14,11 +14,11 @@ entire file (see the `mkvtags` example)
 
 ## API
 
-See the [API Reference](https://godoc.org/github.com/remko/go-mkvparse).
+See the [API Reference](https://godoc.org/github.com/pindrop/mkvparse).
 
 ## Examples
 
-Besides the examples in the [API Reference](https://godoc.org/github.com/remko/go-mkvparse),
+Besides the examples in the [API Reference](https://godoc.org/github.com/pindrop/mkvparse),
 there are some larger examples in the `examples/` dir:
 
 - `examples/mkvinfo`: Example using basic parser API to print all elements
