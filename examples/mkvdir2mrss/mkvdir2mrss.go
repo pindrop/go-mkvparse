@@ -36,6 +36,8 @@ type MediaFile struct {
 }
 
 type MediaParser struct {
+	mkvparse.DefaultHandler
+
 	duration                  float64
 	timecodeScale             int64
 	currentTagGlobal          bool
